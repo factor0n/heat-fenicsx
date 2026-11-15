@@ -45,7 +45,6 @@ report/rapport.tex                 LaTeX report
 conda env create -f environment.yml && conda activate fenicsx-heat
 ./run_all.sh                                   # all studies (~10 min on 2 cores)
 cd scripts && mpirun -n 4 python laser.py --nx 400 --solver cg   # in parallel
-cd ../report && python make_tables.py && latexmk -pdf rapport.tex
 ```
 
 Or with Docker: `docker run -ti -v $(pwd):/root/shared -w /root/shared dolfinx/dolfinx:stable`.
