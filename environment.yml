@@ -1,0 +1,9 @@
+name: fenicsx-heat
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - fenics-dolfinx=0.11
+  - mpich
+  - scipy
+  - matplotlib

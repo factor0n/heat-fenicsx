@@ -1,0 +1,23 @@
+{
+  "nx": 100,
+  "degree": 1,
+  "dt": 0.05,
+  "theta": 0.5,
+  "ndofs": 5151,
+  "mpi_size": 1,
+  "solver": "lu",
+  "wall_time_s": 4.506695626000237,
+  "n_steps": 500,
+  "Tmax_peak": 600.5181189611012,
+  "t_Tmax_peak": 15.0,
+  "probe_peaks": [
+    595.733775003517,
+    285.01393612738406,
+    163.9245917137353
+  ],
+  "energy_in_J": 3004.999999999968,
+  "energy_out_J": 350.2603265435797,
+  "energy_stored_J": 2654.739673456633,
+  "energy_balance_rel_err": 8.973882831137307e-14,
+  "mean_ksp_its": 1.0
+}
